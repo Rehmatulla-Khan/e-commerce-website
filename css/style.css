@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  width: 200px;
+  padding-top: 10px;
+}
+.navbar {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background-color: #5b6467;
+  background: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+  height: 75px;
+}
+nav {
+  text-align: right;
+  flex: 1;
+}
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  padding: 5px;
+  font-weight: bold;
+  text-decoration: none;
+
+  color: black;
+}
+nav ul li a:hover {
+  background: #92a4aa;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px 2px rgb(0, 0, 0);
+  border-radius: 8px;
+}
+.card {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+}
+.card:hover {
+  background: #92a4aa;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px 2px rgb(0, 0, 0);
+  border-radius: 8px;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0;
+  background-color: #eee;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background: -webkit-radial-gradient(#fff, #c9c506);
+}
+.col-1 {
+  flex-basis: 50%;
+  min-width: 300px;
+  padding: 10px;
+}
+
+.col-1 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+.col-1 h1 {
+  font-size: 50px;
+  line-height: 50px;
+  margin: 25px 0;
+}
+.btn {
+  display: inline-block;
+  padding: 8px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+  background: -webkit-linear-gradient(top, #b20094 0%, #ff44f2 100%);
+  border-radius: 20px;
+  transition: background 0.5s;
+}
+.btn:hover {
+  background: #9b1a1a;
+  box-shadow: 2px 2px 4px 2px black;
+}
+.categories {
+  max-width: 1300px;
+  margin: auto;
+}
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin: 70px 0;
+}
+.product-details {
+  flex-basis: 18%;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.5s;
+  min-width: 250px;
+}
+
+.product-details img {
+  width: 100%;
+  max-height: 250px;
+}
+.rating .fa {
+  color: #ff523b;
+}
+.title h1 {
+  text-transform: uppercase;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+.product-details h3 a {
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+  border-radius: 4px;
+}
+.product-details h3 a:hover {
+  background: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+  color: aliceblue;
+  box-shadow: 1px 1px 4px 1px black;
+}
+
+@media all and (max-width: 775px) {
+  .navbar {
+    margin-bottom: 125px;
+  }
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+  }
+  nav ul li {
+    display: block;
+    text-align: center;
+  }
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background: -webkit-radial-gradient(#fff, #c9c506);
+}
+.col-2 {
+  flex-basis: 50%;
+  text-align: center;
+  min-width: 300px;
+  padding-left: 12px;
+}
+.col-2 img {
+  width: 80%;
+}
+.row-3 {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.testamonial-1 {
+  padding: 20px;
+  text-align: center;
+  flex-basis: 30%;
+  min-width: 300px;
+}
+.small-container {
+  max-width: 1300px;
+  margin: auto;
+}
+.brands-logo {
+  display: flex;
+  padding: 25px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.png-img {
+  flex-basis: 20%;
+  min-width: 150px;
+}
+.png-img img {
+  width: 90%;
+  filter: grayscale(100%);
+}
+.png-img img:hover {
+  filter: grayscale(0%);
+}
+.row-5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+}
+.footer-col {
+  min-width: 150px;
+  padding: 15px;
+  flex-basis: 22%;
+  text-align: center;
+}
+.footer-col img {
+  width: 80%;
+}
+.footer-col ul {
+  list-style: none;
+}
+.footer-col ul li:hover {
+  background: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+  color: aliceblue;
+}
